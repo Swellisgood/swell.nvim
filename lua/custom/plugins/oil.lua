@@ -5,6 +5,7 @@ return {
     config = function()
       require('oil').setup {
         columns = { 'icon' },
+        delete_to_trash = false,
         keymaps = {
           ['<C-h>'] = false,
           ['<C-l>'] = false,
